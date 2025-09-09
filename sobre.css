@@ -8,7 +8,7 @@ body {
 
 h1 {
      padding: 10px;
-     background-color: rgb(97, 97, 89);
+     background-color: rgb(156, 156, 152);
 
 }
 
@@ -29,6 +29,17 @@ figcaption {
 }
 
 figure img {
-     width: 800px;
+     width: 100%;
+}
+
+.matriz-KittyVs{
+     width: 550px;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.Kitty{
+     width: 275px;
+     float: right;
 }
 
