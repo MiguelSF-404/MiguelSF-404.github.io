@@ -43,3 +43,7 @@ figure img {
      float: right;
 }
 
+figure img 
+{
+     width: 100%;
+}
