@@ -3,7 +3,7 @@
    <head>
      <title>KittyVS | Início</title>
      <meta charset="utf-8">
-     <link href="favicon.ico" rel="icon"
+     <link href="favicon.ico" rel="icon">
    </head> 
       <body>
             <h1>Seja Bem-vindo ao Nosso Site de Vídeos Viráis!</h1>
@@ -16,6 +16,39 @@
             <li><a href="sobre.html#NossaEmpresa">NossaEmpresa</a></li>
             <li><a href="jogo/index.html">Meu jogo</a></li>
          </ul>
+         
+         <iframe src="jogo/index.html" width="800" height="600"></iframe>
+
+         <style>
+.video-container {
+  position: relative;
+  width: 984px;
+  height: 738px;
+  background: url('https://img.youtube.com/vi/HdWeNnuzq2U/maxresdefault.jpg') center center / cover no-repeat;
+  cursor: pointer;
+}
+.video-container::after {
+  content: '▶';
+  font-size: 80px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 2px 5px black;
+}
+</style>
+
+<div class="video-container" onclick="loadVideo(this)"></div>
+
+<script>
+function loadVideo(container) {
+  container.innerHTML = `<iframe width="984" height="738" src="https://www.youtube-nocookie.com/embed/HdWeNnuzq2U?autoplay=1&rel=0&modestbranding=1" 
+  title="Cocoricó" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>`;
+}
+
+</script>
       </body>
       <footer></footer>
 </html>
