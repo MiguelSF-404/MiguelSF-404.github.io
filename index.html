@@ -4,22 +4,25 @@
      <title>KittyVS | Início</title>
      <meta charset="utf-8">
      <link href="favicon.ico" rel="icon">
+     <link rel="stylesheet" href="index.css">
    </head> 
       <body>
-            <h1>Seja Bem-vindo ao Nosso Site de Vídeos Viráis!</h1>
+            <h1>Seja Bem-vindo ao Nosso Site de Vídeos Virais!</h1>
          
-         <ul>
-            <li>Cursos Test Promoções</li>
-            <li>Receba informações por e-mail</li>
-            <li>montando corpo da página</li>
-            <li><a href="sobre.html">sobre</a></li>
-            <li><a href="sobre.html#NossaEmpresa">NossaEmpresa</a></li>
-            <li><a href="jogo/index.html">Meu jogo</a></li>
-         </ul>
+      <nav>
+        <ul>
+          <li>Cursos, Testes e Promoções</li>
+          <li>Receba informações por e-mail</li>
+          <li>Montando corpo da página</li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="sobre.html#NossaEmpresa">Nossa Empresa</a></li>
+          <li><a href="jogo/index.html">Meu jogo</a></li>
+        </ul>
+      </nav>
          
          <iframe src="jogo/index.html" width="800" height="600"></iframe>
 
-         <style>
+<style>
 .video-container {
   position: relative;
   width: 984px;
@@ -39,7 +42,7 @@
 }
 </style>
 
-<div class="video-container" onclick="loadVideo(this)"></div>
+<div class="video-container" onclick="loadVideo(this)" aria-label="Clique para assistir ao vídeo"></div>
 
 <script>
 function loadVideo(container) {
@@ -49,6 +52,6 @@ function loadVideo(container) {
 }
 
 </script>
+<footer></footer>
       </body>
-      <footer></footer>
 </html>
