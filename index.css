@@ -7,3 +7,22 @@
 {
     display: block;
 }
+
+.video-container {
+  position: relative;
+  width: 984px;
+  height: 738px;
+  background: url('https://img.youtube.com/vi/HdWeNnuzq2U/maxresdefault.jpg') center center / cover no-repeat;
+  cursor: pointer;
+}
+
+.video-container::after {
+  content: '▶';
+  font-size: 80px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 2px 5px black;
+}
