@@ -5,11 +5,14 @@
      <meta charset="utf-8">
      <link href="favicon.ico" rel="icon">
      <link rel="stylesheet" href="index.css">
-      
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,&display=block"> 
+     <link rel="stylesheet" href="reset.css">
+      <link rel="stylesheet" href="cabecalho.css">
    </head> 
   <body>
+    
 
-        <header>
+        <header class="cabecalho">
           <a href="index.html">
           <img src="logo.jpg" title="ir para a página inicial" alt="KittyVS">
           </a>
@@ -17,36 +20,18 @@
 
         <nav>
           <ul>
-            <li><a href=""> </a></li>
-            <li><a href=""> </a></li>
-            <li><a href=""> </a></li>
+            <li><a href="sobre.html#contato">Contato</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Descubra</a></li>
           </ul>
         </nav>
+        
+        <main>
+          Conteúdo Principal
+        </main>
 
-       <h1>Seja Bem-vindo ao Nosso Site de Vídeos Virais!</h1>
-      
-      <nav>
-        <ul>
-          <li><span>Cursos, Testes e Promoções</span></li>
-          <li><span>Receba informações por e-mail</span></li>
-          <li><span>Montando corpo da página</span></li>
-          <li><a href="sobre.html">Sobre</a></li>
-          <li><a href="sobre.html#NossaEmpresa">Nossa Empresa</a></li>
-       </ul>
-        <li><a href="jogo/index.html">Meu jogo</a></li>
-         </nav>
-         
-         <iframe src="jogo/index.html" width="800" height="600"></iframe>
-<div class="video-container" onclick="loadVideo(this)" aria-label="Clique para assistir ao vídeo"></div>
-
-<script>
-function loadVideo(container) {
-  container.innerHTML = `<iframe width="984" height="738" src="https://www.youtube-nocookie.com/embed/HdWeNnuzq2U?autoplay=1&rel=0&modestbranding=1" 
-  title="Cocoricó" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>`;
-}
-
-    </script>
-    <footer></footer>
+    <footer>
+      rodapé
+    </footer>
   </body>
 </html>
