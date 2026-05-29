@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<title>Lexicom & CO. — Leitura Sem Barreiras</title>
-<meta name="description" content="Plataforma premium de leitura acessível para pessoas com dislexia."/>
+<title>Dysly — Leitura Sem Barreiras</title>
+<meta name="description" content="Dysly — Plataforma premium de leitura acessível para pessoas com dislexia."/>
 
 <!-- Fontes -->
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -473,10 +473,10 @@ body.contrast #toast{background:#111;border:1px solid var(--accent);color:var(--
      HEADER
 ════════════════════════════════════ -->
 <header class="header" role="banner">
-  <a href="#home" class="logo" aria-label="Lexicom & CO. — Ir ao topo">
-    <div class="logo-mark" aria-hidden="true"><span class="logo-mark-text">L</span></div>
+  <a href="#home" class="logo" aria-label="Dysly — Ir ao topo">
+    <div class="logo-mark" aria-hidden="true"><span class="logo-mark-text">D</span></div>
     <div class="logo-info">
-      <span class="logo-name">Lexicom &amp; CO.</span>
+      <span class="logo-name">Dysly</span>
       <span class="logo-tag">Leitura Acessível</span>
     </div>
   </a>
@@ -539,7 +539,7 @@ body.contrast #toast{background:#111;border:1px solid var(--accent);color:var(--
     <div class="hero-circle hero-circle-2"></div>
   </div>
   <div class="hero-content">
-    <div class="hero-badge"><span class="hero-badge-dot"></span>Plataforma de Leitura Acessível — v2.0</div>
+    <div class="hero-badge"><span class="hero-badge-dot"></span>Dysly — Plataforma de Leitura Acessível</div>
     <h1 class="hero-h1" id="hero-h1">Leia com<br><em>clareza e conforto</em></h1>
     <p class="hero-p">Uma plataforma pensada de verdade para pessoas com dislexia. Personalize cada detalhe: fonte, espaçamento, cor e muito mais. Até PDFs ficam fáceis de ler.</p>
     <div class="hero-cta">
@@ -896,7 +896,7 @@ body.contrast #toast{background:#111;border:1px solid var(--accent);color:var(--
      RODAPÉ
 ════════════════════════════════════ -->
 <footer style="background:var(--ink);color:rgba(255,255,255,.6);padding:2.5rem 2rem;text-align:center;">
-  <div style="font-family:'DM Serif Display',serif;font-size:1.4rem;color:#fff;margin-bottom:.4rem;">Lexicom &amp; CO.</div>
+  <div style="font-family:'DM Serif Display',serif;font-size:1.4rem;color:#fff;margin-bottom:.4rem;">Dysly</div>
   <p style="font-size:.8rem;margin-bottom:.75rem;">MiguelSF · Kauã Gomes · Pyettro Augusto · Guilherme Biancardi · Paulo Henrique</p>
   <p style="font-size:.82rem;font-style:italic;color:rgba(255,255,255,.4);">"Toda pessoa merece ler com clareza e conforto."</p>
 </footer>
@@ -927,7 +927,7 @@ const S = {
 function init(){
   // Carregar preferências salvas
   try{
-    const saved = localStorage.getItem('lexicom3');
+    const saved = localStorage.getItem('dysly1');
     if(saved){
       const p = JSON.parse(saved);
       Object.assign(S, p);
@@ -1004,7 +1004,7 @@ function setupPdfJs(){
    SALVAR
 ═══════════════════════════════════════ */
 function save(){
-  try{ localStorage.setItem('lexicom3', JSON.stringify(S)); }
+  try{ localStorage.setItem('dysly1', JSON.stringify(S)); }
   catch(e){ console.warn('Não foi possível salvar:', e); }
 }
 
@@ -1322,7 +1322,7 @@ Albert Einstein, Leonardo da Vinci, Agatha Christie e Walt Disney são alguns ex
 
 Com as ferramentas certas, a leitura se torna muito mais tranquila. Fontes especialmente desenhadas, como a OpenDyslexic, tornam as letras mais distintas entre si. Aumentar o espaçamento entre linhas e palavras reduz a sensação de que o texto está "se movendo".
 
-O Lexicom & CO. coloca todo esse poder nas suas mãos. Explore o painel de ajustes ao lado e encontre a combinação que funciona melhor para você.
+O Dysly coloca todo esse poder nas suas mãos. Explore o painel de ajustes ao lado e encontre a combinação que funciona melhor para você.
 
 Cada pessoa é única. Cada leitura também pode ser.`;
 
